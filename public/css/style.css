@@ -15,7 +15,14 @@ h1 {
     top: 0;
     left: 0;
     width: 100px; /* Vous pouvez ajuster la taille selon vos besoins */
-    height: auto;
+    height: 100px;
+}
+.compte-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Vous pouvez ajuster la taille selon vos besoins */
+    height: 100px;
 }
 
 /* Assurez-vous que le reste de votre contenu ne chevauche pas l'image */
