@@ -21,4 +21,6 @@ h1 {
 /* Assurez-vous que le reste de votre contenu ne chevauche pas l'image */
 body {
     padding-top: 120px; /* Ajustez en fonction de la taille de votre image */
+    background-color: black; /* Définit la couleur de fond de toute la page en noir */
+    color: white; /* Change la couleur du texte en blanc pour un meilleur contraste */
 }
