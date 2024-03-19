@@ -3,9 +3,22 @@ h1 {
     color: purple;
 }
 
-body{
+/* body{
     width: 300px;
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
+} */
+
+.batterie-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px; /* Vous pouvez ajuster la taille selon vos besoins */
+    height: auto;
+}
+
+/* Assurez-vous que le reste de votre contenu ne chevauche pas l'image */
+body {
+    padding-top: 120px; /* Ajustez en fonction de la taille de votre image */
 }
