@@ -2,45 +2,12 @@
 <html lang="francais">
 <head>
     <meta charset="UTF-8">
-    <title>Todo List</title>
+    <title>Music-All</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
     <div>
-        <h1>Todo List</h1>
-        <h2>Liste des tâches</h2>
-        <% if (tasks.length > 0) { %>
-            <ul>
-                <!--passe chaque tache en revue et en une liste à puces-->
-                <!--Rajoute un lien pour effacer quand url /delete-->
-                <% tasks.forEach(function(task) { %>
-                    <li><%= task %><a href="/delete?task=<%= task %>">Effacer</a></li>
-                <% }) %>
-            </ul>
-        <% } else { %>
-            <p>Aucune tâche disponible</p>
-        <% } %>
-    </div>
-    <div>
-        <h2>Ajouter une tache: </h2>
-        <p>
-            <form action="/addTask" method="POST">
-                <input type="text" name="task" placeholder="Entrer une tâche">
-                <button type="submit">Sauvegarder</button>
-            </form>  
-            <% if (successMessage) { %>
-                <p><%= successMessage %></p>
-            <% } %>
-        
-            <% if (errorMessage) { %>
-                <p><%= errorMessage %></p>
-            <% } %>
-        </p>
-        <p>
-            <form action="/" method="get">
-                <button type="submit">Terminer</button>
-            </form>   
-        </p>
+        <h1>Musicl-All</h1>
     </div>
 </body>
 </html>
