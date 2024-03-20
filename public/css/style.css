@@ -1,11 +1,13 @@
 h1 {
     font-size: 60px; /* Taille de la police */
     color: #FFD700; /* Couleur dorée */
-    justify-content: center; /* Centrage horizontal du texte */
+    text-align: center; /* Centrage horizontal du texte */
     text-shadow: 0 0 20px #FFF, 0 0 30px #FFF, 0 0 40px #FFD700, 0 0 70px #FFD700; /* Ombre portée lumineuse */
     letter-spacing: 5px; /* Espacement entre les lettres */
     text-transform: uppercase; /* Texte en majuscules */
-    animation: glow 1.5s ease-in-out infinite alternate; /* Animation lumineuse */
+    animation: glow 2s ease-in-out infinite alternate; /* Animation lumineuse */
+    margin-top: 100px; /* Positionnement à 100px du haut */
+    margin-bottom: 200px; /* Optionnel: ajustez selon vos besoins pour l'espacement en dessous du titre */
 }
 
 @keyframes glow {
@@ -47,6 +49,7 @@ h2 {
     font-size: 40px; /* Taille de la police */
     margin: 0 auto; /* Centrage du cadre dans le corps de la page */
     color: white; /* Couleur du texte en blanc */
+    align-items: center; 
 }
 
 .batterie-image {
@@ -66,11 +69,13 @@ h2 {
 
 /* Assurez-vous que le reste de votre contenu ne chevauche pas l'image */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     background-color: black ; /* Arrière-plan sombre pour le contraste */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrage horizontal des éléments enfants */
+    justify-content: flex-start; /* Alignement des éléments enfants depuis le haut */
+    min-height: 100vh;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+    padding-top: 100px; /* Ajoute un padding de 100px au haut du body */     
 }
