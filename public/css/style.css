@@ -37,24 +37,17 @@ h1 {
 
 
 h2 {
-    width: 300px; /* Largeur du cadre */
-    height: 100px; /* Hauteur du cadre */
+    width: 500px; /* Largeur du cadre */
+    height: 200px; /* Hauteur du cadre */
     background-color: transparent; /* Rend le fond transparent */
     border: 2px solid white; /* Définit la bordure comme étant blanche */
     display: flex; /* Utilisation de Flexbox pour le centrage */
     justify-content: center; /* Centrage horizontal du texte */
     align-items: center; /* Centrage vertical du texte */
-    font-size: 20px; /* Taille de la police */
+    font-size: 40px; /* Taille de la police */
     margin: 0 auto; /* Centrage du cadre dans le corps de la page */
     color: white; /* Couleur du texte en blanc */
 }
-
-/* body{
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
-} */
 
 .batterie-image {
     position: absolute;
