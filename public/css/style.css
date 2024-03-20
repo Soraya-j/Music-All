@@ -7,7 +7,7 @@ h1 {
     text-transform: uppercase; /* Texte en majuscules */
     animation: glow 2s ease-in-out infinite alternate; /* Animation lumineuse */
     margin-top: 100px; /* Positionnement à 100px du haut */
-    margin-bottom: 200px; /* Optionnel: ajustez selon vos besoins pour l'espacement en dessous du titre */
+    margin-bottom: 600px; /* Optionnel: ajustez selon vos besoins pour l'espacement en dessous du titre */
 }
 
 @keyframes glow {
