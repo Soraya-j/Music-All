@@ -37,7 +37,6 @@ h1 {
     }
 }
 
-
 h2 {
     width: 500px; /* Largeur du cadre */
     height: 200px; /* Hauteur du cadre */
@@ -65,6 +64,18 @@ h2 {
     right: 0;
     width: 100px; /* Vous pouvez ajuster la taille selon vos besoins */
     height: 100px;
+}
+
+.note-image {
+    position: fixed; /* ou 'absolute' selon le contexte */
+    bottom: 0; /* Aligner l'élément au bas de la page */
+    left: 70%; /* Positionner l'élément à 33.33% de la gauche de la page pour qu'il soit aligné au deux tiers vers la droite */
+    width: 50px; /* Définir la largeur de l'élément à 33.33% de la largeur de la page */
+    height: 100px; /* Hauteur automatique en fonction du contenu, ajustez selon les besoins */
+    /* Styles supplémentaires pour l'apparence */
+    background-color: #ccc; /* Couleur de fond, exemple */
+    text-align: center; /* Centrer le texte à l'intérieur de l'élément */
+    padding: 10px; /* Espacement intérieur, ajustez selon les besoins */
 }
 
 /* Assurez-vous que le reste de votre contenu ne chevauche pas l'image */
