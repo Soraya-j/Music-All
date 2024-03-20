@@ -10,12 +10,31 @@ h1 {
 
 @keyframes glow {
     from {
-        text-shadow: 0 0 10px #FFF, 0 0 20px #FFF, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700;
+        text-shadow: 
+            0 0 10px #FFF, 
+            0 0 20px #FFF, 
+            0 0 30px #FFD700, 
+            0 0 40px #FFD700, 
+            0 0 50px #FFD700, 
+            0 0 60px #FFD700, 
+            0 0 70px #FFD700,
+            0 0 80px #FFD700, 
+            0 0 90px #FFD700;
     }
     to {
-        text-shadow: 0 0 20px #FFF, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700, 0 0 80px #FFD700;
+        text-shadow: 
+            0 0 20px #FFF, 
+            0 0 40px #FFF, 
+            0 0 60px #FFD700, 
+            0 0 80px #FFD700, 
+            0 0 100px #FFD700, 
+            0 0 120px #FFD700, 
+            0 0 140px #FFD700,
+            0 0 160px #FFD700, 
+            0 0 180px #FFD700;
     }
 }
+
 
 h2 {
     width: 300px; /* Largeur du cadre */
