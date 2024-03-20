@@ -87,6 +87,17 @@ h2 {
     text-align: center; /* Centrer le texte à l'intérieur de l'élément */
     padding: 10px; /* Espacement intérieur, ajustez selon les besoins */
 }
+
+.amis-image {
+    position: fixed; /* ou 'absolute' selon le contexte */
+    bottom: 0; /* Aligner l'élément au bas de la page */
+    left: 23%; /* Positionner l'élément à 33.33% de la gauche de la page pour qu'il soit aligné au deux tiers vers la droite */
+    width: 80px; /* Définir la largeur de l'élément à 33.33% de la largeur de la page */
+    height: 100px; /* Hauteur automatique en fonction du contenu, ajustez selon les besoins */
+    background-color: #ccc; /* Couleur de fond, exemple */
+    text-align: center; /* Centrer le texte à l'intérieur de l'élément */
+    padding: 10px; /* Espacement intérieur, ajustez selon les besoins */
+}
 /* Assurez-vous que le reste de votre contenu ne chevauche pas l'image */
 body {
     background-color: black ; /* Arrière-plan sombre pour le contraste */
