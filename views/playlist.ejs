@@ -10,7 +10,31 @@
         <h1>Music-All</h1>
         <img src="/image/batterie.png" alt="Batterie" class="batterie-image"> <!-- Assurez-vous que le chemin vers l'image est correct -->
         <img src="/image/compte_utilisateur.jpg" alt="Compte" class="compte-image"> <!-- Assurez-vous que le chemin vers l'image est correct -->
-        <img src="/image/croix.png" alt="Compte" class="croix-image">
+        <img src="/image/croix.png" alt="Compte" class="croix-image" id="croixBtn">
+
+        <div id="monPopup" class="popup-conteneur" style="display:none;">
+            <div class="popup-contenu">
+                <span class="close-btn" id="closePopup">&times;</span>
+                <p>Votre contenu de pop-up ici...</p>
+            </div>
+        </div>
+        
+        <script>
+            document.getElementById('croixBtn').addEventListener('click', function() {
+                document.getElementById('monPopup').style.display = 'block';
+            });
+        
+            document.getElementById('closePopup').addEventListener('click', function() {
+                document.getElementById('monPopup').style.display = 'none';
+            });
+        
+            window.addEventListener('click', function(event) {
+                var popup = document.getElementById('monPopup');
+                if (event.target == popup) {
+                    popup.style.display = 'none';
+                }
+            });
+        </script>
 
         <div class="cadre-bas-page"></div>
         <img src="/image/noteM.jpg" alt="note" class="note-image"> <!-- Assurez-vous que le chemin vers l'image est correct -->
