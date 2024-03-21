@@ -7,14 +7,17 @@ app.use(express.urlencoded({ extended: true }));
 
 let tasks = [];
 
-//Affiche le formulaire
+
 app.get('/', (request, response) => {
     response.render('home.ejs', { tasks, successMessage: null, errorMessage: null });
 });
 
-// Route pour la page 'about'
 app.get('/amisSession', (request, response) => {
-    response.render('amisSession.ejs'); // Assurez-vous d'avoir un fichier 'about.ejs' dans votre dossier de vues
+    response.render('amisSession.ejs'); 
+});
+
+app.get('/autreSession', (request, response) => {
+    response.render('autreSession.ejs'); 
 });
 
 app.listen(80, () => {
