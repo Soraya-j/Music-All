@@ -16,6 +16,7 @@
             <div class="popup-contenu">
                 <span class="close-btn" id="closePopup">&times;</span>
                 <p>Vous êtes sur que vous voulez quitter la session ??</p>
+                <button id="quitterBtn">Oui la soirée est terminée</button>
             </div>
         </div>
         
@@ -33,6 +34,11 @@
                 if (event.target == popup) {
                     popup.style.display = 'none';
                 }
+            });
+        
+            // Gestionnaire d'événements pour le bouton "Quitter"
+            document.getElementById('quitterBtn').addEventListener('click', function() {
+                window.location.href = '/'; // Remplacez '/quitterSession' par l'URL de votre choix
             });
         </script>
 
