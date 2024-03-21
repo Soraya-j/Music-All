@@ -159,8 +159,8 @@ body {
 
 .close-btn {
     position: absolute; /* Utilise la position absolue pour placer le bouton */
-    top: 30px; /* Distance du haut du contenu du pop-up */
+    top: 20px; /* Distance du haut du contenu du pop-up */
     right: 30px; /* Distance de la droite du contenu du pop-up */
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
 }
