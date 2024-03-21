@@ -119,7 +119,7 @@ h2 {
     margin-right: auto;
     position: absolute; /* ou 'fixed', selon ce qui convient à votre mise en page */
     top: 50%;
-    left: 10%;
+    left: 13%;
     transform: translateY(-20%); /* Ajuste la position verticale de l'image */
     width: 700px; /* Définit la largeur de l'image */
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
