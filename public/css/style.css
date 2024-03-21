@@ -123,7 +123,7 @@ h2 {
     transform: translateY(-20%); /* Ajuste la position verticale de l'image */
     width: 700px; /* Définit la largeur de l'image */
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
-    border: 5px solid rgba(35, 35, 35, 0.59); /* Ajoute un cadre blanc de 5px autour de l'image */
+    border: 10px solid rgba(35, 35, 35, 0.59); /* Ajoute un cadre blanc de 5px autour de l'image */
 }
 
 
