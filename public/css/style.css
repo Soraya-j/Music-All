@@ -108,7 +108,20 @@ h2 {
     transform: translateX(-50%); /* Centre l'image horizontalement par rapport à sa propre largeur */
 }
 
+.conteneur_boum {
+    position: relative; /* ou 'absolute' ou 'fixed' selon le contexte */
+    height: 100%; /* Assurez-vous que le conteneur a une hauteur définie */
+}
 
+.boum_boum-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute; /* ou 'fixed' */
+    top: 50%; /* Centrer verticalement */
+    left: 15%;
+    transform: translateY(-20%); /* Décaler l'image de moitié de sa hauteur pour un centrage parfait */
+}
 body {
     background-color: black ; /* Arrière-plan sombre pour le contraste */  
     margin: 0;
