@@ -115,6 +115,8 @@ h2 {
 
 .boum_boum-image {
     display: block;
+    width: 70%;
+    height: 70%;
     margin-left: auto;
     margin-right: auto;
     position: absolute; /* ou 'fixed' */
