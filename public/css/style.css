@@ -115,15 +115,17 @@ h2 {
 
 .boum_boum-image {
     display: block;
-    width: 70%;
-    height: 70%;
     margin-left: auto;
     margin-right: auto;
-    position: absolute; /* ou 'fixed' */
-    top: 50%; /* Centrer verticalement */
+    position: absolute; /* ou 'fixed', selon ce qui convient à votre mise en page */
+    top: 50%;
     left: 15%;
-    transform: translateY(-20%); /* Décaler l'image de moitié de sa hauteur pour un centrage parfait */
+    transform: translateY(-20%); /* Ajuste la position verticale de l'image */
+    width: 200px; /* Définit la largeur de l'image */
+    height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
 }
+
+
 body {
     background-color: black ; /* Arrière-plan sombre pour le contraste */  
     margin: 0;
