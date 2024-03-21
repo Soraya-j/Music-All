@@ -20,6 +20,10 @@ app.get('/autreSession', (request, response) => {
     response.render('autreSession.ejs'); 
 });
 
+app.get('/playlist', (request, response) => {
+    response.render('playlist.ejs'); 
+});
+
 app.listen(80, () => {
     console.log('Server is running on port 80');
 });

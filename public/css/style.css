@@ -53,7 +53,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px; /* Vous pouvez ajuster la taille selon vos besoins */
+    width: 100px; 
     height: 100px;
 }
 .compte-image {
@@ -98,6 +98,16 @@ h2 {
     z-index: 1000; /* Assure que le cadre est sous les images */
     background-image: linear-gradient(rgba(86, 86, 87, 0.207) 1%, black 100%);    
 }
+
+.croix-image {
+    width: 100px; 
+    height: 100px;
+    position: fixed; /* Ou 'absolute' si vous ne voulez pas qu'elle reste fixe lors du défilement */
+    top: 20%; /* Aligné avec le haut de la page */
+    left: 80%; /* Décale l'image à 50% de la largeur de la page depuis la gauche */
+    transform: translateX(-50%); /* Centre l'image horizontalement par rapport à sa propre largeur */
+}
+
 
 body {
     background-color: black ; /* Arrière-plan sombre pour le contraste */  
