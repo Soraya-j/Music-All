@@ -101,11 +101,8 @@ h2 {
 
 body {
     background-color: black ; /* Arrière-plan sombre pour le contraste */  
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrage horizontal des éléments enfants */
-    justify-content: flex-start; /* Alignement des éléments enfants depuis le haut */
-    min-height: 100vh;
     margin: 0;
-    padding-top: 100px; /* Ajoute un padding de 100px au haut du body */     
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }

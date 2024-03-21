@@ -38,6 +38,9 @@ h4 {
 }
 
 p {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
     color: white;
     font-style: italic;
+    font-size: 25px;
 }
