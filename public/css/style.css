@@ -120,7 +120,7 @@ h2 {
     position: absolute;
     top: 50%;
     left: 13%;
-    transform: translateY(-20%); /* Ajuste la position verticale de l'image */
+    transform: translateY(-25%); /* Ajuste la position verticale de l'image */
     width: 700px; /* Définit la largeur de l'image */
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
     border: 10px solid rgba(35, 35, 35, 0.59); /* Ajoute un cadre blanc de 5px autour de l'image */
@@ -160,7 +160,7 @@ body {
 .close-btn {
     position: absolute; /* Utilise la position absolue pour placer le bouton */
     top: 20px; /* Distance du haut du contenu du pop-up */
-    right: 30px; /* Distance de la droite du contenu du pop-up */
+    right: 20px; /* Distance de la droite du contenu du pop-up */
     font-size: 30px;
     cursor: pointer;
 }
