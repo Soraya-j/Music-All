@@ -121,7 +121,7 @@ h2 {
     top: 50%;
     left: 15%;
     transform: translateY(-20%); /* Ajuste la position verticale de l'image */
-    width: 200px; /* Définit la largeur de l'image */
+    width: 600px; /* Définit la largeur de l'image */
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
 }
 
