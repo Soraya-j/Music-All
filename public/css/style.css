@@ -137,7 +137,7 @@ body {
 .popup-conteneur {
     position: fixed;
     left: 35%;
-    top: 30%;
+    top: 40%;
     width: 100%;
     height: 100%;
     background-color: transparent; /* Ajoute un fond semi-transparent pour l'effet de modal */
@@ -151,7 +151,7 @@ body {
     width: 300px; /* Définit la largeur du rectangle */
     height: 200px; /* Définit la hauteur du rectangle */
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative; /* Permet de positionner correctement le bouton de fermeture par rapport au contenu */
@@ -159,7 +159,7 @@ body {
 
 .close-btn {
     position: absolute; /* Utilise la position absolue pour placer le bouton */
-    top: 20px; /* Distance du haut du contenu du pop-up */
+    top: 30px; /* Distance du haut du contenu du pop-up */
     right: 30px; /* Distance de la droite du contenu du pop-up */
     font-size: 40px;
     cursor: pointer;
