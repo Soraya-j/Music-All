@@ -60,13 +60,17 @@ p {
 .fin-bouton {
     background-color: #007BFF; /* Couleur de fond du bouton */
     color: white; /* Couleur du texte */
-    padding: 12px 24px; /* Espacement intérieur du bouton */
-    font-size: 16px; /* Taille de la police */
+    padding: 30px 40px; /* Augmente l'espacement intérieur pour un bouton plus large et plus long */
+    font-size: 20px; /* Taille de la police */
     border: none; /* Supprime la bordure du bouton */
     border-radius: 5px; /* Arrondit les coins du bouton */
     cursor: pointer; /* Change le curseur en main lors du survol */
     transition: background-color 0.3s ease; /* Animation de transition pour le survol */
+    display: block; /* Rend le bouton comme un bloc pour permettre le centrage horizontal */
+    margin: 40px auto; /* Centrage horizontal et ajoute un peu d'espace au-dessus et en dessous */
+    width: 50%; /* Définit la largeur du bouton à 50% du conteneur parent */
 }
+
 
 .fin-bouton:hover {
     background-color: #0056b3; /* Couleur de fond du bouton au survol */
