@@ -45,12 +45,14 @@ h2 {
     justify-content: center; /* Centrage horizontal du texte */
     align-items: center; /* Centrage vertical du texte */
     font-size: 40px; /* Taille de la police */
-    margin: 0 auto; /* Centrage du cadre dans le corps de la page */
+    margin: 0 auto; /* Potentiellement superflu avec position absolue et centrage ci-dessous */
     color: white; /* Couleur du texte en blanc */
     position: absolute; /* Positionne absolument l'élément sur la page */
-    top: 90%;
-    left : 36%;
+    top: 50%; /* Déplace au milieu verticalement */
+    left: 50%; /* Déplace au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Compense pour le centrage parfait */
 }
+
 
 @keyframes glow {
     0% {
@@ -65,7 +67,7 @@ h2 {
     width: 300px; 
     height: auto; 
     position: absolute; 
-    top: 10%; 
+    top: 6%; 
     left: 50%; 
     transform: translateX(-50%);
     border: 5px solid transparent;
