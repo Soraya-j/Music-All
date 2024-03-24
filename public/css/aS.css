@@ -57,3 +57,17 @@ p {
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
     border: 10px solid rgba(35, 35, 35, 0.59); 
 }
+.fin-bouton {
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 12px 24px; /* Espacement intérieur du bouton */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    cursor: pointer; /* Change le curseur en main lors du survol */
+    transition: background-color 0.3s ease; /* Animation de transition pour le survol */
+}
+
+.fin-bouton:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}
