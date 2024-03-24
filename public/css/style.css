@@ -124,7 +124,7 @@ h2 {
     width: 100%; /* Définit la largeur de l'image */
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
     border: 10px solid rgba(35, 35, 35, 0.59); 
-    margin-bottom: 50px; /* Ajoute un espace en dessous de l'image */
+    margin-bottom: 200px; /* Ajoute un espace en dessous de l'image */
 }
 
 
