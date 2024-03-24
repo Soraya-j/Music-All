@@ -6,27 +6,6 @@ body {
     background-color: black ; /* Arrière-plan sombre pour le contraste */
 }
 
-@keyframes glow {
-    0% {
-        border-color:#f8500e; /* Couleur de départ */
-    }
-    100% {
-        border-color:#ffa72c; /* Couleur finale */
-    }
-}
-
-.logo-image {
-    width: 300px;
-    height: auto;
-    position: absolute;
-    top: 4%;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 10px solid transparent;
-    border-radius: 5px; /* Arrondit les bordures */
-    animation: glow 2s ease-in-out infinite alternate;
-}
-
 .cadres-container {
     display: flex; /* Utilise Flexbox */
     justify-content: space-between; /* Répartit l'espace entre les éléments si nécessaire */
