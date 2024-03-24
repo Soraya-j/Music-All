@@ -67,7 +67,7 @@ p {
     cursor: pointer; /* Change le curseur en main lors du survol */
     transition: background-color 0.3s ease; /* Animation de transition pour le survol */
     display: block; /* Rend le bouton comme un bloc pour permettre le centrage horizontal */
-    margin: 40px auto; /* Centrage horizontal et ajoute un peu d'espace au-dessus et en dessous */
+    margin: 50px auto; /* Centrage horizontal et ajoute un peu d'espace au-dessus et en dessous */
     width: 50%; /* Définit la largeur du bouton à 50% du conteneur parent */
 }
 

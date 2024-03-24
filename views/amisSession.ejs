@@ -18,6 +18,11 @@
     </div>
     <p>Invitez vos amis à rejoindre votre session</p>
     <button class="fin-bouton">Lancer la playlist</button>
+    <script>
+        document.querySelector('.fin-bouton').addEventListener('click', function() {
+            window.location.href = '/playlist'; 
+        });
+    </script>    
     <img src="/image/ListAmis.jpg" alt="List Amis" class="listAmis-image">
     </div>
 </body>
