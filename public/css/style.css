@@ -47,7 +47,32 @@ h2 {
     font-size: 40px; /* Taille de la police */
     margin: 0 auto; /* Centrage du cadre dans le corps de la page */
     color: white; /* Couleur du texte en blanc */
+    position: absolute; /* Positionne absolument l'élément sur la page */
+    top: 90%;
+    left : 36%;
 }
+
+@keyframes glow {
+    0% {
+        border-color: #000; /* Couleur de départ */
+    }
+    100% {
+        border-color: #282727; /* Couleur finale */
+    }
+}
+
+.logo-image {
+    width: 300px; 
+    height: auto; 
+    position: absolute; 
+    top: 10%; 
+    left: 50%; 
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    /* border-image: linear-gradient(to bottom, #888, #000) 1; */
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
 
 .batterie-image {
     position: absolute;
