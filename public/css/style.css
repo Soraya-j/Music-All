@@ -193,7 +193,7 @@ body {
 
 .mus-bouton {
     position: absolute;
-    top: 10%; /* Ajustez selon le besoin */
+    top: 15%; /* Ajustez selon le besoin */
     left: 50%;
     transform: translate(-50%, -50%); /* Centrer le bouton exactement */
     background-color: #007BFF; /* Couleur de fond du bouton */
