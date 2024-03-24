@@ -56,10 +56,10 @@ h2 {
 
 @keyframes glow {
     0% {
-        border-color: #ffa72c; /* Couleur de départ */
+        border-color:#f8500e; /* Couleur de départ */
     }
     100% {
-        border-color: #f8500e; /* Couleur finale */
+        border-color:#ffa72c; /* Couleur finale */
     }
 }
 
