@@ -67,7 +67,7 @@ h2 {
     width: 300px;
     height: auto;
     position: absolute;
-    top: 5%;
+    top: 4%;
     left: 50%;
     transform: translateX(-50%);
     border: 10px solid transparent;
@@ -145,7 +145,7 @@ h2 {
     position: absolute;
     top: 70%;
     left: 0%;
-    transform: translateY(6%); /* Ajuste la position verticale de l'image */
+    transform: translateY(8%); /* Ajuste la position verticale de l'image */
     width: 100%; /* Définit la largeur de l'image */
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
     border: 10px solid rgba(35, 35, 35, 0.59); 
