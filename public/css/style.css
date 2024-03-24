@@ -192,9 +192,13 @@ body {
 }
 
 .mus-bouton {
+    position: absolute;
+    top: 20%; /* Ajustez selon le besoin */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrer le bouton exactement */
     background-color: #007BFF; /* Couleur de fond du bouton */
     color: white; /* Couleur du texte */
-    padding: 30px 40px; /* Augmente l'espacement intérieur pour un bouton plus large et plus long */
+    padding: 20px 40px; /* Augmente l'espacement intérieur pour un bouton plus large et plus long */
     font-size: 20px; /* Taille de la police */
     border: none; /* Supprime la bordure du bouton */
     border-radius: 5px; /* Arrondit les coins du bouton */
