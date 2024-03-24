@@ -44,3 +44,16 @@ p {
     font-style: italic;
     font-size: 25px;
 }
+
+.listAmis-image {    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translateY(-1%); /* Ajuste la position verticale de l'image */
+    width: 700px; /* Définit la largeur de l'image */
+    height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
+    border: 10px solid rgba(35, 35, 35, 0.59); 
+}
