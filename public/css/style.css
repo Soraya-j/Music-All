@@ -143,7 +143,7 @@ h2 {
 .boum_boum-image {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 0%;
     transform: translateY(-1%); /* Ajuste la position verticale de l'image */
     width: 100%; /* Définit la largeur de l'image */
