@@ -56,22 +56,22 @@ h2 {
 
 @keyframes glow {
     0% {
-        border-color: #000; /* Couleur de départ */
+        border-color: #ffa72c; /* Couleur de départ */
     }
     100% {
-        border-color: #282727; /* Couleur finale */
+        border-color: #f8500e; /* Couleur finale */
     }
 }
 
 .logo-image {
-    width: 300px; 
-    height: auto; 
-    position: absolute; 
-    top: 6%; 
-    left: 50%; 
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 6%;
+    left: 50%;
     transform: translateX(-50%);
     border: 10px solid transparent;
-    /* border-image: linear-gradient(to bottom, #888, #000) 1; */
+    border-radius: 5px; /* Arrondit les bordures */
     animation: glow 2s ease-in-out infinite alternate;
 }
 
