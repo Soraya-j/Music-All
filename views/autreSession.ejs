@@ -17,6 +17,28 @@
         <h3>Autres</h3>
     </div>
     <p>Envoyer une invitation aux personnes autours de vous pour rejoindre votre session</p>
+    <button class="fin-bouton">Lancer la playlist</button>
+    <script>
+        document.querySelector('.fin-bouton').addEventListener('click', function() {
+            window.location.href = '/playlist'; 
+        });
+    </script> 
+    <div class="link-copy-container">
+        <input type="text" value="http://pat.infolab.ecam.be:61811/playlist" id="linkToCopy" readonly>
+        <button onclick="copyLink()">Copier</button>
+    </div>
+    <script>
+        function copyLink() {
+            var copyText = document.getElementById("linkToCopy");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // Pour la compatibilité mobile
+            navigator.clipboard.writeText(copyText.value).then(function() {
+                alert("Lien copié : " + copyText.value);
+            }, function(err) {
+                console.error('Erreur lors de la copie :', err);
+            });
+        }
+    </script>
     </div>
 </body>
 </html>
