@@ -45,17 +45,17 @@ p {
     font-size: 25px;
 }
 
-.listAmis-image {    
+.listAmis-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 0%;
-    transform: translateY(-10%); /* Ajuste la position verticale de l'image */
+    transform: translateY(8%); /* Ajuste la position verticale de l'image */
     width: 100%; /* Définit la largeur de l'image */
     height: auto; /* Ajuste automatiquement la hauteur pour conserver le ratio d'aspect */
     border: 10px solid rgba(35, 35, 35, 0.59); 
+    margin-bottom: 3000px; /* Ajoute un espace en dessous de l'image */
+    
 }
 .fin-bouton {
     background-color: #007BFF; /* Couleur de fond du bouton */
@@ -74,4 +74,40 @@ p {
 
 .fin-bouton:hover {
     background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}
+
+/* Style pour le conteneur du lien copiable */
+.link-copy-container {
+    display: flex; /* Utilise flexbox pour le layout */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    gap: 10px; /* Espacement entre l'input et le bouton */
+    margin-top: 20px; /* Ajoute un peu d'espace au-dessus du conteneur */
+}
+
+/* Style pour le champ de texte du lien */
+#linkToCopy {
+    width: 60%; /* Ajuste la largeur */
+    padding: 10px; /* Agrandit l'input pour une meilleure visibilité */
+    font-size: 16px; /* Agrandit la police de caractères */
+    border: 2px solid #007bff; /* Ajoute une bordure pour une meilleure visibilité */
+    border-radius: 5px; /* Arrondit les coins de l'input */
+    text-align: center; /* Centre le texte à l'intérieur de l'input */
+}
+
+/* Style pour le bouton de copie */
+.link-copy-container button {
+    padding: 10px 20px; /* Ajuste l'espacement intérieur pour agrandir le bouton */
+    font-size: 16px; /* Agrandit la police de caractères du bouton */
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    cursor: pointer; /* Change le curseur en pointeur */
+    transition: background-color 0.2s; /* Ajoute un effet de transition */
+}
+
+/* Effet de survol pour le bouton */
+.link-copy-container button:hover {
+    background-color: #0056b3; /* Assombrit le bouton au survol */
 }
